@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <nav>
+        <!-- Execution du programme -->
+        <h2>Contacter le développeur</h2>
+        <form action="">
+            <div class="form-field">
+                <label for="conctact-frm-fname">Prénom</label>
+                <input type="text" name="first-name" id="conctact-frm-name" placeholder="Robert" required
+                    autocomplete="given-name">
+            </div>
+            <div class="form-field">
+                <label for="conctact-frm-lname">Nom</label>
+                <input type="text" name="last-name" id="conctact-frm-lname" placeholder="Redford" required
+                    autocomplete="family-name">
+            </div>
+            <div class="form-field">
+                <label for="contact-frm-email">Email</label>
+                <input type="email" name="email" id="contact-frm-email" placeholder="robert.redford@gmail.com" required
+                    autocomplete="email">
+            </div>
+            <!-- <div class="form-field">
+                <label for="contact-frm-phone">Phone</label>
+                <input type="tel" name="phone" id="contact-frm-phone" placeholder="+33 1 02 03 04 05" required
+                    autocomplete="tel">
+            </div> -->
+            <div class="form-field">
+                <label for="nature">Nature :</label>
+                <select name="nature" id="nature-select"></select>
+            </div>
+            <div class="form-field">
+                <label for="contact-frm-message">Votre message</label>
+                <textarea name="message" id="contact-frm-message" cols="55" rows="20"></textarea>
+            </div>
+            <button type="submit">Envoyer un message au développeur</button>
+        </form>
+    </nav>
+    <!-- Script js -->
+    <script src="js/brief.js"></script>
+</body>
+
+</html>

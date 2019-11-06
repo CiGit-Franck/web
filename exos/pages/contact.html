@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trackbaby</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <ul class="navigation">
+        <li>
+            <h1>Contact projet Trackbaby</h1>
+        </li>
+        <li>
+            <img src="../Resources/Python-logo.png" alt="Python logo">
+        </li>
+    </ul>
+    <ul class="navigation">
+        <li><a href="../exo_01.html"><b>Accueil</b></a></li>
+        <li><a href="code.html">Organisation du code</a></li>
+        <li><a href="deploy.html">Déploiement</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <nav>
+        <!-- Execution du programme -->
+        <h2>Contacter le développeur</h2>
+        <form action="">
+            <div class="form-field">
+                <label for="conctact-frm-fname">Prénom</label>
+                <input type="text" name="first-name" id="conctact-frm-name" placeholder="Robert" required
+                    autocomplete="given-name">
+            </div>
+            <div class="form-field">
+                <label for="conctact-frm-lname">Nom</label>
+                <input type="text" name="last-name" id="conctact-frm-lname" placeholder="Redford" required
+                    autocomplete="family-name">
+            </div>
+            <div class="form-field">
+                <label for="contact-frm-email">Email</label>
+                <input type="email" name="email" id="contact-frm-email" placeholder="robert.redford@gmail.com" required autocomplete="email">
+            </div>
+            <div class="form-field">
+                <label for="contact-frm-phone">Phone</label>
+                <input type="tel" name="phone" id="contact-frm-phone" placeholder="+33 1 02 03 04 05" required
+                    autocomplete="tel">
+            </div>
+            <div class="form-field">
+                <label for="contact-frm-message">Votre message</label>
+                <textarea name="message" id="contact-frm-message" cols="55" rows="20"></textarea>
+            </div>
+            <button type="submit">Envoyer un message au développeur</button>
+        </form>
+    </nav>
+</body>
+
+</html>

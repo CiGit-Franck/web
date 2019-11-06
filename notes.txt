@@ -1,0 +1,4 @@
+cd /cygdrive/c/devpt
+git clone https://github.com/CiGit-Franck/web.git
+cd /cygdrive/c/devpt/web
+

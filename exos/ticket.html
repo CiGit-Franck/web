@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tickets</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav>
+        <div><input type="text" id="firstname" placeholder="Votre prénom"></div>
+        <div><input type="text" id="lastname" placeholder="Votre nom"></div>
+        <div><textarea rows="3" id="comment" placeholder="Votre commentaire"></textarea></div>
+        <div><button id="addComment">Ajouter à la table</button></div>
+    </nav>
+    <nav>
+        <table>
+            <thead>
+                <tr>
+                    <td>Prénom</td>
+                    <td>Nom</td>
+                    <td>Commentaire</td>
+                </tr>
+            </thead>
+            <tbody id="tableComments">
+                <tr>
+                    <td>Stephen</td>
+                    <td>Falken</td>
+                    <td>Bonjour Joshua !</td>
+                </tr>
+            </tbody>
+        </table>
+    </nav>
+    <script src="js/ticket.js"></script>
+</body>
+
+</html>

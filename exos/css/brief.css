@@ -1,0 +1,18 @@
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.page {
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+}
