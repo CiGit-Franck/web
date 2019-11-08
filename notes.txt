@@ -1,4 +1,19 @@
 cd /cygdrive/c/devpt
 git clone https://github.com/CiGit-Franck/web.git
 cd /cygdrive/c/devpt/web
+git pull https://github.com/CiGit-Franck/web.git
 
+// Json 
+var my_object = { key_1: "some text", key_2: true, key_3: 5 };
+
+var object_as_string = JSON.stringify(my_object);  
+// "{"key_1":"some text","key_2":true,"key_3":5}"  
+
+typeof(object_as_string);  
+// "string"  
+
+var object_as_string_as_object = JSON.parse(object_as_string);  
+// {key_1: "some text", key_2: true, key_3: 5} 
+
+typeof(object_as_string_as_object);  
+// "object" 

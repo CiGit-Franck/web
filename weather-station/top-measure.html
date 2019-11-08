@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Station : Top measure</title>
+    <link href="css/weather.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Bienvenue dans la station météo de la promo</h1>
+    <!-- menu -->
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a href="last-measure.html">Dernière mesure</a></li>
+            <li><a href="top-measure.html">Top mesures</a></li>
+            <li><a href="list-measure.html">Tableaux des mesures</a></li>
+            <li><a href="graph-measure.html">Graphiques des mesures</a></li>
+        </ul>
+    </nav>
+    <!-- Page active -->
+    <nav class="page">
+        <table>
+            <thead>
+                <th id="top-humidity-date"></th>
+                <th id="top-temperature-date"></th>
+                <th id="top-presure-date"></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="top-humidity-temperature"></td>
+                    <td id="top-temperature-temperature"></td>
+                    <td id="top-presure-temperature"></td>
+                </tr>
+                <tr>
+                    <td id="top-humidity-humidity"></td>
+                    <td id="top-temperature-humidity"></td>
+                    <td id="top-presure-humidity"></td>
+                </tr>
+                <tr>
+                    <td id="top-humidity-presure"></td>
+                    <td id="top-temperature-presure"></td>
+                    <td id="top-presure-presure"></td>
+                </tr>
+            </tbody>
+        </table>
+    </nav>
+    <!-- Script js -->
+    <script src="js/top-measure.js"></script>
+</body>
+
+<footer>
+    <a href="http://simplon.co">Simplon.co</a>
+</footer>
+
+</html>

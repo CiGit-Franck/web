@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    font: 2em bold italic large serif;
+    background-color: grey;
+}
+h2{
+    text-align: center;
+    font: 2em bold italic large serif;
+    color: red;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    border: 1px solid #333;
+}
+
+thead,
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.page {
+    text-align: center;
+    width: 90vw;
+    height: 20vw;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    background-color: grey;
+}

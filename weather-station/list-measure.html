@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Station : List measure</title>
+    <link href="css/weather.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Bienvenue dans la station météo de la promo</h1>
+    <!-- menu -->
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a href="last-measure.html">Dernière mesure</a></li>
+            <li><a href="top-measure.html">Top mesures</a></li>
+            <li><a href="list-measure.html">Tableaux des mesures</a></li>
+            <li><a href="graph-measure.html">Graphiques des mesures</a></li>
+        </ul>
+    </nav>
+    <!-- Page active -->
+    <table>
+        <thead>
+            <th>Date</th>
+            <th>Température (°C)</th>
+            <th>Humidité (%hum)</th>
+            <th>Pression (hPa)</th>
+        </thead>
+        <tbody id="measure">
+            <!-- Creation dynamique des <tr><td>..<td><r> -->
+        </tbody>
+    </table>
+    <!-- Script js -->
+    <script src="js/list-measure.js"></script>
+</body>
+
+<footer>
+    <a href="http://simplon.co">Simplon.co</a>
+</footer>
+
+</html>
