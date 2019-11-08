@@ -37,7 +37,8 @@ nav>ul>li {
 .page {
     text-align: center;
     width: 90vw;
-    height: 20vw;
+    /* height: 20vw; */
+    padding-bottom: 20px;
     margin: auto;
 }
 
