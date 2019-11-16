@@ -1,0 +1,29 @@
+
+ul.menu{
+    font-family: cursive;
+    display: flex;
+    /* background-color: grey; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0;
+}
+
+ul.menu li{
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+ul.menu li:hover {
+    cursor: pointer;
+}
+
+framePrincipal {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    text-align: center;
+    background-color: grey;
+}
