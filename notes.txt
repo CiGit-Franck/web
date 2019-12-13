@@ -17,3 +17,9 @@ var object_as_string_as_object = JSON.parse(object_as_string);
 
 typeof(object_as_string_as_object);  
 // "object" 
+
+#Spring
+https://hackmd.io/3sxSK0oWQjGT5RrM7IvTfw?both
+
+#Advance REST Client
+https://install.advancedrestclient.com/install
